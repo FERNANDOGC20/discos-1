@@ -14,5 +14,6 @@ $('aside').append('<li>'+nodo+'</li>');
 var precio=$(this).parent().children().first().next().next().next().text();
 precio=parseInt(precio);
 precio+=precio;
+//profe esta linea esta mal
 $('div').append(precio);
 }
